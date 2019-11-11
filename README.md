@@ -269,10 +269,9 @@ Se requiere la verisón `1.20.0+`, para mayor información visitar la documentac
 > docker exec -ti registry_master_1 sh -c "/bin/registry garbage-collect --dry-run /etc/docker/registry/config.yml"
 ```
 
->>>
-* https://docs.docker.com/registry/garbage-collection/
-* https://gbougeard.github.io/blog.english/2017/05/20/How-to-clean-a-docker-registry-v2.html
->>>
+> **Leer:**
+> * https://docs.docker.com/registry/garbage-collection/
+> * https://gbougeard.github.io/blog.english/2017/05/20/How-to-clean-a-docker-registry-v2.html
 
 ### Ver la configuración
 
