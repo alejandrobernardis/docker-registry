@@ -271,7 +271,10 @@ Se requiere la verisón `1.20.0+`, para mayor información visitar la documentac
 > docker exec -ti registry_master_1 sh -c "/bin/registry garbage-collect --dry-run /etc/docker/registry/config.yml"
 ```
 
-> Leer: https://gbougeard.github.io/blog.english/2017/05/20/How-to-clean-a-docker-registry-v2.html
+>>>
+* https://docs.docker.com/registry/garbage-collection/
+* https://gbougeard.github.io/blog.english/2017/05/20/How-to-clean-a-docker-registry-v2.html
+>>>
 
 ### Ver la configuración
 
@@ -337,3 +340,7 @@ Filename    : /usr/bin/htpasswd
 > yum install httpd-tools
 ...
 ```
+
+# TODO
+
+* Implementar autenticación por **token**
