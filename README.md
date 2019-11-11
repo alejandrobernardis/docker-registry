@@ -212,8 +212,7 @@ Verificación de los usuarios habilitados:
 > grep -Po '^\w+' /data/registry/master/auth/htpasswd | awk '{print " - " $1}'
 
  - admin
- - dashboard
- - algeiba
+ - ...
 ```
 
 # :wrench: TROUBLESHOOTING
