@@ -64,13 +64,11 @@ Para realizar el despliegue, **clonamos** el repositorio en modo  **sólo lectur
 * **docker-compose.yml**: configuración de los `servicios` a desplegar.
 * **.env**: configuración de las `variables de entorno` a desplegar.
 
->>>
-:warning: **ADVERTENCIA**
-
-Dentro de la estructura se encuentra un archivo llamado `installer.sh`, al ejecutarlo, éste eliminará todo el contenido del directorio `/data/registry/master`.
-
-La ejecución del mismo será resonsabilidad de quién lo haga.
->>>
+> :warning: **ADVERTENCIA**
+>
+> Dentro de la estructura se encuentra un archivo llamado `installer.sh`, al ejecutarlo, éste eliminará todo el contenido del directorio `/data/registry/master`.
+>
+> La ejecución del mismo será resonsabilidad de quién lo haga.
 
 ### Compose File
 
