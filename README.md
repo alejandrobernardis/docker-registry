@@ -85,7 +85,7 @@ El archivo define básicamente 3 servicios:
 * **master_web** (registry-browser) interfaz web para la exploración del contenido de la `registry`.
     * https://hub.docker.com/r/klausmeyer/docker-registry-browser/
 
-````yaml
+```yaml
 version: '3.4'
 
 x-restart: &restart
