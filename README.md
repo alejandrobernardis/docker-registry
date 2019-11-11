@@ -4,7 +4,7 @@ Configuración de una `registry` privada para `desarrollo`.
 
 ## Index
 
-* **[Registry](#-registry)**
+* **[Registry](#rotating_light-importante-rotating_light)**
     * **[Repositorio](#repositorio)**
     * **[Estructura del Repositorio](#estructura-del-repositorio)**
         * [Compose File](#compose-file)
@@ -14,7 +14,7 @@ Configuración de una `registry` privada para `desarrollo`.
         * [Creación](#creación-de-un-usuario)
         * [Eliminación](#eliminación-de-un-usuario)
         * [Listado](#lista-de-usuarios)
-* **[Troubleshooting...](#-troubleshooting)**
+* **[Troubleshooting...](#wrench-troubleshooting)**
 
 ## :rotating_light: Importante :rotating_light:
 
@@ -26,7 +26,7 @@ Todas las ejecuciones sobre el `shell` se definen de la siguiente manera:
 
 El signo `mayor` (`>`) **NO** se debe incluir, éste indica que la línea debe ser ejecutada dentro del contexto de un `shell`.
 
-# :coffee: Registry
+# :coffee: REGISTRY
 
 ## Repositorio
 
@@ -216,7 +216,7 @@ Verificación de los usuarios habilitados:
  - algeiba
 ```
 
-# :wrench: Troubleshooting
+# :wrench: TROUBLESHOOTING
 
 ## Iniciar los servicios
 
