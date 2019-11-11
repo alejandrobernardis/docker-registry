@@ -42,7 +42,7 @@ Para realizar el despliegue, **clonamos** el repositorio en modo  **sólo lectur
 
 ## Estructura del Repositorio
 
-````bash
+```bash
 > tree -a --dirsfirst
 
   /data/registry
